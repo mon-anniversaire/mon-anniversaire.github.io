@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,700&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+
+h1 {
+    text-align: center;
+    transition: all .5s ease-in-out;
+    padding: 3%;
+}
+
+h1:hover {
+    color: rgb(93, 9, 9);
+    background-color: rgba(255, 223, 93, 0.235);
+}
+
+button {
+    margin-left: 3%;
+    margin-top: 3%;
+    background: rgba(9, 7, 56, 0.863);
+    color: white;
+    padding: 1%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background: rgb(109, 189, 255);
+    color: black;
+}
+
+ul {
+    margin-top: 10%;
+}
+
+li {
+    list-style-type: circle;
+    margin-top: 19%;
+}
+
+a {
+    padding: 0.5%;
+}
+
+#cargo li {
+    margin-top: 7%;
+}
+
+#cargo a {
+    text-decoration: none;
+    color: rgb(19, 19, 169);
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#vélo a {
+    text-decoration: none;
+    color: black;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#chaussures a {
+    text-decoration: none;
+    color: rgb(120, 0, 120);
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#cargo a:hover {
+    text-decoration: line-through;
+    background: rgba(107, 32, 177, 0.518);
+    color: rgb(0, 0, 65);
+}
+
+#vélo a:hover {
+    text-decoration: line-through;
+    background: rgba(8, 8, 77, 0.884);
+    color: white;
+}
+
+#chaussures a:hover {
+    text-decoration: line-through;
+    background: rgba(0, 0, 0, 0.886);
+    color: rgb(235, 176, 255);
+}
+
+#circle {
+    position:absolute;
+    transform:translate(-50%,-50%);
+    height:35px;
+    width:35px;
+    border-radius:50%;
+    border: 1px solid rgba(0, 0, 0, 0.405);
+    background: linear-gradient(to top, #fdcbf1a7 0%, #fdcbf1aa 1%, #e6dee9ae 100%);
+    z-index: -1;
+}
+
+@media only screen and (min-width: 1200px) {
+    li {
+        margin-top: 8%;
+    }
+
+    #cargo li {
+        margin-top: -6%;
+    }
+}
