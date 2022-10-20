@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,700&display=swap');
-
 html, body {
     margin: 0;
     padding: 0;
@@ -17,14 +15,14 @@ h1 {
 }
 
 h1:hover {
-    color: rgb(93, 9, 9);
-    background-color: rgba(255, 223, 93, 0.235);
+    color: black;
+    background-color: white;
 }
 
 button {
     margin-left: 3%;
     margin-top: 3%;
-    background: rgba(9, 7, 56, 0.863);
+    background: red;
     color: white;
     padding: 1%;
     border-radius: 10px;
@@ -57,7 +55,7 @@ a {
 
 #cargo a {
     text-decoration: none;
-    color: rgb(19, 19, 169);
+    color: black;
     padding-left: 2%;
     padding-right: 2%;
 }
@@ -71,38 +69,27 @@ a {
 
 #chaussures a {
     text-decoration: none;
-    color: rgb(120, 0, 120);
+    color: black;
     padding-left: 2%;
     padding-right: 2%;
 }
 
 #cargo a:hover {
-    text-decoration: line-through;
-    background: rgba(107, 32, 177, 0.518);
-    color: rgb(0, 0, 65);
+    text-decoration: overline;
+    background: black;
+    color: white;
 }
 
 #vélo a:hover {
-    text-decoration: line-through;
-    background: rgba(8, 8, 77, 0.884);
+    text-decoration: overline;
+    background: black;
     color: white;
 }
 
 #chaussures a:hover {
-    text-decoration: line-through;
-    background: rgba(0, 0, 0, 0.886);
-    color: rgb(235, 176, 255);
-}
-
-#circle {
-    position:absolute;
-    transform:translate(-50%,-50%);
-    height:35px;
-    width:35px;
-    border-radius:50%;
-    border: 1px solid rgba(0, 0, 0, 0.405);
-    background: linear-gradient(to top, #fdcbf1a7 0%, #fdcbf1aa 1%, #e6dee9ae 100%);
-    z-index: -1;
+    text-decoration: overline;
+    background: black;
+    color: white;
 }
 
 @media only screen and (min-width: 1200px) {
