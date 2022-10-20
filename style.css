@@ -116,7 +116,7 @@ button[type="envoyer"] {
 button[type="envoyer"]:hover {
 transform: scale(1.1);
 border-color: white;
-color: white;
+color: red;
 }
 
 @media only screen and (min-width: 1200px) {
