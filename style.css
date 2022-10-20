@@ -106,9 +106,9 @@ button[type="envoyer"] {
     margin-left: 25%;
     margin-top: 5%;
     background: rgb (255, 0, 0);
-    color: white;
+    color: red;
     padding: 1%;
-    border-radius: 6px;
+    border-radius: none;
     cursor: pointer;
     transition: all .4s ease-in-out;
 }
