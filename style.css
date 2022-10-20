@@ -101,7 +101,7 @@ input[id="surname"] {
     margin-left: 5px;
 }
 
-button[type="submit"] {
+button[type="envoyer"] {
     width: 35%;
     margin-left: 25%;
     margin-top: 5%;
@@ -113,7 +113,7 @@ button[type="submit"] {
     transition: all .4s ease-in-out;
 }
 
-button[type="submit"]:hover {
+button[type="envoyer"]:hover {
 transform: scale(1.1);
 border-color: white;
 color: white;
@@ -154,7 +154,7 @@ color: white;
         margin-top: 5%;
     }
 
-    form button[type="submit"] {
+    form button[type="envoyer"] {
         width: 33%;
         margin-left: 25%;
         margin-top: 7%;
